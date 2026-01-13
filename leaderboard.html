@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="./favicon.svg">
+<title>Global Leaderboards | GameVerse Player Rankings</title>
+<meta name="description" content="Check out the global leaderboards on GameVerse. Track top player rankings for Aether Strike, Voidfall, and more. See who is conquering the Verse.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .leaderboard-table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+  .leaderboard-table th, .leaderboard-table td { padding: 16px; text-align: left; border-bottom: 1px solid var(--border-color); }
+  .leaderboard-table th { font-weight: 600; color: var(--text-secondary); }
+  .leaderboard-table tr:hover { background-color: rgba(255, 255, 255, 0.03); }
+  .player-cell { display: flex; align-items: center; gap: 12px; }
+  .player-cell img { width: 40px; height: 40px; border-radius: 50%; background-color: var(--card); }
+  .player-cell .rank { font-size: 1.5rem; font-weight: 800; color: var(--text-secondary); width: 40px; text-align: center; }
+  .filter-buttons { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="favicon.svg" alt="GameVerse icon"><span>GameVerse</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" >Play Game</a>
+      <a href="leaderboard.html" class="active">Leaderboard</a>
+      <a href="about.html" >About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Enter the Verse</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero"><div class="container">
+  <h1>The Global Rankings</h1>
+  <p>This is where legends are forged. Track your progress, see how you stack up against the best, and fight for your spot at the top. The leaderboards are updated in real-time after every match.</p>
+</div></header>
+
+<section class="section container">
+  <h2>Aether Strike - Season 4 Rankings</h2>
+  <div class="filter-buttons">
+    <button class="btn">Aether Strike</button>
+    <button class="btn ghost">Voidfall: Chronicles</button>
+    <button class="btn ghost">Quantum Dodge</button>
+    <button class="btn ghost">Last Stand</button>
+  </div>
+  <div class="card">
+    <table class="leaderboard-table">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Player</th>
+          <th>ELO Rating</th>
+          <th>Win Rate</th>
+          <th>Matches Played</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div class="player-cell"><span class="rank">1</span></div></td>
+          <td><div class="player-cell">     <span>Vex</span></div></td>
+          <td>3,450</td>
+          <td>72%</td>
+          <td>512</td>
+        </tr>
+        <tr>
+          <td><div class="player-cell"><span class="rank">2</span></div></td>
+          <td><div class="player-cell">     <span>Nyx</span></div></td>
+          <td>3,421</td>
+          <td>68%</td>
+          <td>580</td>
+        </tr>
+        <tr>
+          <td><div class="player-cell"><span class="rank">3</span></div></td>
+          <td><div class="player-cell">     <span>Ronin</span></div></td>
+          <td>3,389</td>
+          <td>75%</td>
+          <td>450</td>
+        </tr>
+        <tr>
+          <td><div class="player-cell"><span class="rank">4</span></div></td>
+          <td><div class="player-cell">     <span>Glitch</span></div></td>
+          <td>3,350</td>
+          <td>65%</td>
+          <td>620</td>
+        </tr>
+        <tr>
+          <td><div class="player-cell"><span class="rank">5</span></div></td>
+          <td><div class="player-cell">     <span>Seraph</span></div></td>
+          <td>3,310</td>
+          <td>78%</td>
+          <td>400</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>How to Climb the Rankings</h2>
+  <p>Your journey to the top of the GameVerse leaderboards is a true test of skill, strategy, and dedication. Our ranking system is built on a sophisticated ELO model, designed to accurately measure your ability against every opponent you face. When you win a match, you gain ELO points; when you lose, you lose points. The number of points gained or lost depends on the ELO difference between you and your opponent. Defeating a higher-ranked player will earn you a significant number of points, as it proves you can compete at a higher level. Conversely, losing to a lower-ranked player will result in a more substantial point deduction. This system ensures that every match has meaning and that your rank is a dynamic, evolving reflection of your current performance.
+  <br><br>
+  Consistency is crucial. To climb effectively, you must consistently perform well against players at and above your current skill level. Going on a win streak will rapidly accelerate your ascent through the ranks. However, the system is also designed to prevent stagnation. If you only play against opponents far below your rank, your ELO gains will be minimal. The key to climbing is to challenge yourself constantly. Participate in tournaments to face a wide variety of opponents and earn bonus ELO for high placements. Join ladders and actively seek out matches against higher-ranked players. Your rank is not just a number; it's a story of your competitive journey. Every victory is a new chapter, and every loss is a lesson learned. The path to becoming a legend is paved with determination and a relentless desire to improve.
+  </p>
+</section>
+
+<section class="section container">
+  <h2>The Reward System: Reaping the Spoils of Victory</h2>
+  <p>At GameVerse, we believe that dedication and achievement should be recognized and rewarded. Our reward system is designed to celebrate your accomplishments and give you tangible symbols of your success. At the end of each competitive season (typically lasting three months), players who finish in the top tiers of the leaderboard receive exclusive, season-specific rewards. These can include unique profile badges that signify your final rank (e.g., Diamond, Master, Grandmaster), special cosmetic items for your GameVerse profile, and even physical merchandise for the absolute top players.
+  <br><br>
+  Beyond seasonal rewards, we also celebrate ongoing achievements. Unlock permanent badges for milestones such as reaching 100 tournament wins, achieving a 10-game win streak, or defeating a top-10 ranked player. These badges are displayed proudly on your profile, creating a visual history of your accomplishments for all to see. For our premium Vanguard and Titan members, high leaderboard placements can also grant entry into exclusive, high-stakes invitational tournaments with significant cash prize pools. The reward system is our way of saying thank you for your commitment to competition and for helping to make GameVerse the most exciting gaming platform in the world. The higher you climb, the greater the rewards.
+  </p>
+</section>
+
+<section class="section container">
+  <h2>Competition Rules & Fair Play</h2>
+  <p>Competitive integrity is the foundation of GameVerse. To ensure a level playing field for all, we enforce a strict set of rules. All players are expected to compete with sportsmanship and respect for their opponents. The use of third-party software, cheats, or exploits of any kind is strictly forbidden and will result in an immediate and permanent ban from the platform. Account sharing and intentionally losing matches (throwing) to manipulate rankings are also serious offenses that will be met with severe penalties. We utilize a state-of-the-art anti-cheat system combined with active human moderation and a community-driven reporting system to uphold these standards. By competing on GameVerse, you agree to abide by these rules and contribute to a positive, fair, and competitive environment. For a complete overview of our policies, please review our <a href="terms.html">Terms of Service</a>.</p>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 GameVerse. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="badge">Compete • Connect • Conquer</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

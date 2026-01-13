@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="./favicon.svg">
+<title>FAQ | GameVerse Help & Support Center</title>
+<meta name="description" content="Find answers to frequently asked questions about GameVerse accounts, gameplay, technical issues, billing, and more in our comprehensive support center.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .faq-search { width: 100%; max-width: 600px; margin: 0 auto 40px; }
+  .faq-category { margin-bottom: 40px; }
+  .faq-item { border-bottom: 1px solid var(--border-color); }
+  .faq-item summary { padding: 20px 0; font-weight: 600; font-size: 1.1rem; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;}
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.5rem; color: var(--accentA); }
+  .faq-item[open] summary::after { content: '−'; }
+  .faq-item .answer { padding: 0 0 20px; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="favicon.svg" alt="GameVerse icon"><span>GameVerse</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" >Play Game</a>
+      <a href="leaderboard.html" >Leaderboard</a>
+      <a href="about.html" >About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" class="active">FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Enter the Verse</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero"><div class="container">
+  <h1>Frequently Asked Questions</h1>
+  <p>Have a question? We've got answers. Browse through our most frequently asked questions to find the information you need. If you can't find your answer here, feel free to contact our support team.</p>
+</div></header>
+
+<section class="section container">
+  <div class="faq-search">
+    <input type="search" placeholder="Search for a question...">
+  </div>
+
+  <div class="faq-category">
+    <h2>Account & Profile</h2>
+    <div class="card">
+      <details class="faq-item">
+        <summary>How do I create a GameVerse account?</summary>
+        <div class="answer"><p>Creating an account is simple and free! Just click the "Sign Up" button on our homepage. You'll need to provide a unique username, a valid email address, and a secure password. After you submit the form, we'll send a verification link to your email. Click that link, and your account will be activated and ready to go. You can then log in and start setting up your player profile.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I change my username or email address?</summary>
+        <div class="answer"><p>You can change your username once every 90 days. To do so, navigate to your 'Account Settings' page, where you'll find an option to edit your profile information. Please note that your profile URL will change along with your username. To change your email address, you will need to go through a verification process to confirm ownership of the new email. This is a security measure to protect your account.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>I forgot my password. What should I do?</summary>
+        <div class="answer"><p>If you've forgotten your password, click the "Forgot Password?" link on the login page. Enter the email address associated with your account, and we will send you a secure link to reset your password. For security reasons, our support staff cannot see or reset your password for you.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I link my game accounts (e.g., Steam, Riot) to GameVerse?</summary>
+        <div class="answer"><p>In your 'Account Settings', there is a section called 'Game Connections'. Here, you can link your various game accounts to your GameVerse profile. Simply click the 'Connect' button next to the desired game platform and follow the secure authentication prompts. This process is essential for automatic match tracking and to verify your identity for tournaments.</p></div>
+      </details>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Gameplay & Tournaments</h2>
+    <div class="card">
+      <details class="faq-item">
+        <summary>How do I join a tournament?</summary>
+        <div class="answer"><p>Navigate to the 'Games' or 'Tournaments' page and browse the list of upcoming events. Once you find a tournament you'd like to enter, click on it to view the details page. If registrations are open, you'll see a 'Register' button. Click it, confirm your entry, and you're in! Be sure to read the tournament rules and be online for the check-in period, which typically starts 30-60 minutes before the event begins.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How does the ELO ranking system work?</summary>
+        <div class="answer"><p>Our ELO system is a skill-based rating model. Every player starts with a baseline ELO score. When you win a match, you gain points, and when you lose, you lose points. The amount of ELO exchanged depends on the rating difference between you and your opponent. Beating a much higher-ranked player will earn you more points than beating someone ranked lower than you. This ensures your rank is an accurate reflection of your skill relative to the rest of the player base.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens if my opponent doesn't show up for a match?</summary>
+        <div class="answer"><p>If your opponent does not check in or join the game lobby within the designated time (usually 10 minutes after the match is scheduled), you can report a 'No Show' on the match page. Our system will verify their absence, and you will be awarded a default win, allowing you to advance in the tournament.</p></div>
+      </details>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Technical Issues</h2>
+    <div class="card">
+      <details class="faq-item">
+        <summary>The website is loading slowly. What can I do?</summary>
+        <div class="answer"><p>First, try clearing your browser's cache and cookies, as old data can sometimes cause performance issues. Ensure you have a stable internet connection. If the problem persists, try using a different web browser to see if the issue is browser-specific. Our platform is optimized for modern browsers like Chrome, Firefox, and Edge. If you're still experiencing slowness, please contact our support team with details about your browser and operating system.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>My match result was reported incorrectly. How can I fix this?</summary>
+        <div class="answer"><p>If a match result is incorrect, you can file a dispute directly from the match page within 15 minutes of the result being posted. You will be required to submit evidence, such as a screenshot of the end-game scoreboard. A tournament administrator will then review the evidence from both players and make a final ruling to correct the result.</p></div>
+      </details>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Billing & Subscriptions</h2>
+    <div class="card">
+      <details class="faq-item">
+        <summary>What are the benefits of a Vanguard or Titan membership?</summary>
+        <div class="answer"><p>Our premium memberships unlock a host of features for serious competitors. Vanguard members get access to prize-pool tournaments, advanced performance analytics, an ad-free experience, and priority support. Titan members get all Vanguard benefits plus the ability to create and host their own public tournaments, API access for developers, and a dedicated account manager. You can see a full comparison on our <a href="services.html">Services</a> page.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How can I cancel my subscription?</summary>
+        <div class="answer"><p>You can manage your subscription at any time from your 'Account Settings' page under the 'Billing' tab. From there, you can cancel your subscription. Your premium benefits will remain active until the end of your current billing cycle, and you will not be charged again.</p></div>
+      </details>
+    </div>
+  </div>
+
+  <section id="contact" class="section container">
+    <div class="cta card">
+      <h2>Still have questions?</h2>
+      <p>If you couldn't find the answer you were looking for, our support team is ready to help. Get in touch with us!</p>
+      <a href="mailto:support@gameverse.com" class="btn">Contact Support</a>
+    </div>
+  </section>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 GameVerse. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="badge">Compete • Connect • Conquer</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

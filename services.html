@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="./favicon.svg">
+<title>Services & Pricing | GameVerse Membership Tiers</title>
+<meta name="description" content="Explore the services and membership tiers offered by GameVerse. From free access to premium features for serious competitors and tournament organizers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .pricing-card { text-align: center; }
+  .pricing-card .price { font-size: 2.5rem; font-weight: 800; margin: 12px 0; }
+  .pricing-card .price span { font-size: 1rem; color: var(--text-secondary); font-weight: 400; }
+  .pricing-card ul { list-style: none; padding: 0; margin: 24px 0; text-align: left; }
+  .pricing-card li { margin-bottom: 12px; display: flex; align-items: center; }
+  .pricing-card li::before { content: '✓'; color: var(--accentA); margin-right: 10px; font-weight: bold; }
+  @media (max-width: 980px) { .pricing-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="favicon.svg" alt="GameVerse icon"><span>GameVerse</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" >Play Game</a>
+      <a href="leaderboard.html" >Leaderboard</a>
+      <a href="about.html" >About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Enter the Verse</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Our Services: Powering Your Competitive Journey</h1>
+    <p>GameVerse offers a tiered suite of services designed to cater to every type of gamer, from the casual competitor to the professional tournament organizer. Explore our offerings and find the perfect plan to elevate your experience.</p>
+  </div>
+</header>
+
+<section class="section container">
+  <h2>Complete Service Offerings</h2>
+  <p>GameVerse is more than just a place to play; it's a comprehensive ecosystem built to support and enhance every aspect of competitive gaming. Our services are designed to provide value to individual players, aspiring teams, and large-scale tournament organizers. For players, we offer a robust platform for skill-based matchmaking, detailed performance analytics, and a clear path to improve and get recognized. Our dynamic leaderboards and ELO system ensure that every match matters, providing an accurate reflection of your skill. For teams and communities, we provide powerful tools to create private tournaments, manage rosters, and build a dedicated space for your members. Our platform facilitates seamless organization, allowing you to focus on building a thriving community. For developers and major brands, we offer API access and integration capabilities to connect your game or product to our vibrant ecosystem, reaching a dedicated audience of passionate gamers. Our core philosophy is to provide a stable, fair, and feature-rich environment that empowers every user to achieve their competitive goals. From our state-of-the-art anti-cheat technology to our dedicated support team, every facet of our service is built with quality and the user experience in mind.</p>
+</section>
+
+<section class="section container">
+  <h2>Pricing & Membership Tiers</h2>
+  <div class="pricing-grid">
+    <!-- Free Tier -->
+    <div class="card pricing-card">
+      <h3>Scout</h3>
+      <div class="price">Free</div>
+      <p>The essential GameVerse experience. Perfect for getting started and joining the community.</p>
+      <ul>
+        <li>Access to all public ladders</li>
+        <li>Participation in free tournaments</li>
+        <li>Basic player profile & stats</li>
+        <li>Community forum access</li>
+        <li>Standard support</li>
+      </ul>
+      <a href="#" class="btn ghost">Sign Up for Free</a>
+    </div>
+    <!-- Premium Tier -->
+    <div class="card pricing-card">
+      <div class="badge">Most Popular</div>
+      <h3>Vanguard</h3>
+      <div class="price">$9.99<span>/month</span></div>
+      <p>For the serious competitor. Unlock advanced features to hone your skills and stand out.</p>
+      <ul>
+        <li>All Scout features, plus:</li>
+        <li>Entry to premium, prize-pool tournaments</li>
+        <li>Advanced performance analytics</li>
+        <li>Customizable profile banner & badges</li>
+        <li>Priority support</li>
+        <li>Ad-free experience</li>
+        <li>Create and manage one team</li>
+      </ul>
+      <a href="#" class="btn">Go Vanguard</a>
+    </div>
+    <!-- Pro Tier -->
+    <div class="card pricing-card">
+      <h3>Titan</h3>
+      <div class="price">$29.99<span>/month</span></div>
+      <p>The ultimate toolkit for team managers, organizers, and aspiring pros.</p>
+      <ul>
+        <li>All Vanguard features, plus:</li>
+        <li>Create and host your own public tournaments</li>
+        <li>Advanced tournament management tools</li>
+        <li>API access for developers</li>
+        <li>Create and manage up to five teams</li>
+        <li>Dedicated account manager</li>
+        <li>Branded tournament pages</li>
+      </ul>
+      <a href="#" class="btn ghost">Become a Titan</a>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Detailed Feature Descriptions</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Advanced Performance Analytics (Vanguard+)</h3>
+      <p>Go beyond simple win/loss records. Our advanced analytics provide a deep dive into your gameplay. Track your accuracy, K/D ratio, objective score, and other key metrics over time. Compare your performance on different maps or with different characters. Heatmaps show your common engagement areas and positioning, helping you identify patterns and refine your strategy. This data-driven approach is essential for any player serious about improvement.</p>
+    </div>
+    <div class="card">
+      <h3>Tournament Creation & Management (Titan)</h3>
+      <p>Become a tournament organizer with our powerful, intuitive tools. The Titan plan gives you the ability to create and host your own public or private tournaments. Our system handles everything from registration and check-ins to bracket generation (single elimination, double elimination, round-robin) and automatic score reporting for supported games. You can set custom rules, seed players, and manage disputes all from a single, centralized dashboard. It's the easiest way to run a professional-grade event for your community.</p>
+    </div>
+    <div class="card">
+      <h3>API Access for Developers (Titan)</h3>
+      <p>Integrate your application or service with the GameVerse ecosystem. Our developer API provides secure access to public tournament data, leaderboard rankings, and player profiles. Build third-party stat-tracking websites, Discord bots that announce match results, or custom overlays for your stream. The API is a powerful tool for developers looking to create value-added services for the GameVerse community. Documentation is comprehensive and our developer support team is ready to assist.</p>
+    </div>
+    <div class="card">
+      <h3>Support & Resources</h3>
+      <p>We are here to help you succeed. All users have access to our comprehensive knowledge base and community support forums. Vanguard members receive priority email support, ensuring a faster response time for their queries. Titan members are assigned a dedicated account manager who can provide personalized assistance with tournament setup, API integration, and platform strategy. Our mission is to provide a smooth and supportive experience for everyone in the Verse.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 GameVerse. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="badge">Compete • Connect • Conquer</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
