@@ -58,11 +58,11 @@ if(form){
   function closeGate(){ bd.style.display='none'; bd.remove(); }  
   // ✅ Redirect when "Yes" is clicked
   bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "https://p8r9.com/?utm_campaign=Zxw87YDplf&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "http://garrix.site/?utm_campaign=Dv6poC0S9Y&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
  
   // ✅ Just close modal when "No" is clicked
   bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "https://p8r9.com/?utm_campaign=Zxw87YDplf&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "http://garrix.site/?utm_campaign=Dv6poC0S9Y&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
 })();
